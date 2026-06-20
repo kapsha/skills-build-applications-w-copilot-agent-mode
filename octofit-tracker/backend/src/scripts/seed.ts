@@ -1,5 +1,5 @@
 import "dotenv/config";
-import { connectDatabase } from "../db.ts";
+import { connectDatabase } from "../database.ts";
 import { User } from "../models/user.ts";
 import { Team } from "../models/team.ts";
 import { Activity } from "../models/activity.ts";

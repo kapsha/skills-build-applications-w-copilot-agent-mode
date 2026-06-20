@@ -6,7 +6,7 @@ import teamsRouter from "./routes/teams";
 import activitiesRouter from "./routes/activities";
 import leaderboardRouter from "./routes/leaderboard";
 import workoutsRouter from "./routes/workouts";
-import { connectDatabase } from "./db";
+import { connectDatabase } from "./database";
 
 dotenv.config();
 
